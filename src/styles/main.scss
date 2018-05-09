@@ -1,0 +1,26 @@
+// ABSTRACTS
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// VENDORS
+@import 'vendor/normalize';
+@import '../font-icons/css/fontello-embedded';
+
+// BASE 
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+// COMPONENTS
+@import 'components/navigation';
+@import 'components/project';
+@import 'components/buttons';
+
+// LAYOUT
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/grid';
+
+// PAGES
+@import 'pages/home';

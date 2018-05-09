@@ -1,0 +1,16 @@
+.page-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @include breakpoint(tab-port) {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.section-contact {
+  background-color: #FFEBEE;
+  &__icon {
+    margin-right: .5rem;
+  }
+}
